@@ -16,7 +16,7 @@ location				= var.location
 resource_group_name		= azurerm_resource_group.TEST.name
 }
 
-# Sunet
+# Subnet
 
 resource "azurerm_subnet" "TEST"{
 name					= "$(var.prefix)-subnet1"
