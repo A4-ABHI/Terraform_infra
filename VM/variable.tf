@@ -1,6 +1,17 @@
-variable "prefix" {
-  description = "The Prefix used for all resources in this example"
+variable "location" {
+type = string
+default = "CentralUS"
 }
 
-variable "location" {
-  description = "The Azure Region in which the resources in this example should exist"
+variable "prefix"{
+type = string
+default = "TEST"
+}
+
+variable "username"{
+description	= "username for Virtual machine"
+}
+
+variable "password"{
+description	= "Password for Virtual machine"
+}
